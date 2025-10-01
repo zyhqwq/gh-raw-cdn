@@ -6,7 +6,7 @@ export default async function handler(req, res) {
     try {
         // 固定仓库信息
         const repo = "zyhqwq/cf-gh-images";
-        const branch = "master"; 
+        const branch = "main"; 
         const baseDir = "images"; 
         // 拼接成raw.githubusercontent.com格式的链接
         const rawUrl = `https://raw.githubusercontent.com/${repo}/${branch}/${baseDir}/${path}`;
